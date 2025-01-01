@@ -6,7 +6,7 @@
 # 🎵 음악 장르 분류기
 
 ## 📌 소개
-이 프로젝트는 [Kaggle 대회](https://www.kaggle.com/competitions/2024-ml-project4)에서 영감을 받아 제작된 **음악 장르 분류 시스템**입니다. 오디오 데이터의 특징을 활용하여 다양한 음악 장르를 분류하며, 오디오 데이터 처리와 머신러닝 모델 학습 및 평가를 탐구하는 데 중점을 두었습니다.
+이 프로젝트는 [Kaggle 대회](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification))에서 영감을 받아 제작된 **음악 장르 분류 시스템**입니다. 오디오 데이터의 특징을 활용하여 다양한 음악 장르를 분류하며, 오디오 데이터 처리와 머신러닝 모델 학습 및 평가를 탐구하는 데 중점을 두었습니다.
 
 ## 🚀 주요 기능
 - **오디오 특징 추출**: Librosa 또는 Essentia 라이브러리를 사용해 MFCC, 크로마(chroma), 스펙트럼 대비(spectral contrast) 등 주요 오디오 특징을 추출합니다.
@@ -77,10 +77,14 @@
 ## 📈 결과
 - **최고 모델 정확도**: 테스트 데이터에서 92%
 - **혼동 행렬**:
-  (혼동 행렬 이미지를 삽입하세요)
+  
+  <img width="577" alt="스크린샷 2025-01-01 오후 4 43 20" src="https://github.com/user-attachments/assets/0250266f-ee54-4ea3-b2ca-deacd6aca0d1" />
+
   
 - **장르별 F1 점수**:
-  (표 또는 그래프를 삽입하세요)
+  
+  <img width="571" alt="스크린샷 2025-01-01 오후 4 45 29" src="https://github.com/user-attachments/assets/e02924c2-15b8-48a1-8a68-cf144026df9c" />
+
 
 ## 💡 향후 작업
 - RNN 또는 Transformer와 같은 시계열 데이터를 처리할 수 있는 고급 모델 탐색
@@ -88,8 +92,6 @@
 - 사용자 친화적인 인터페이스를 통한 실시간 장르 예측 기능 추가
 
 
-## 📄 라이선스
-이 프로젝트는 MIT 라이선스를 따릅니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
 
 ---
 
